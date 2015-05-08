@@ -56,7 +56,7 @@ plot(plotdf$DateTime,
     legend("topright", 
            legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), 
            col = c("black", "red", "blue"), 
-           pch = "-")
+           lty = 1)
 
 ## Fourth plot: bottomright
 plot(plotdf$DateTime, 
